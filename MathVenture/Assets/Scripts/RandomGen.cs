@@ -7,15 +7,28 @@ public class RandomGen : MonoBehaviour
 {
 
     public GameObject TextBox;
-    public int TheNumber;
+    public bool coroutineAllowed = true;
+    public static int TheNumber;
 
-    public void randomGenerator()
+    /*private void OnMouseDown()
     {
-        TheNumber = Random.Range(1, 7);
+         if(!GameControl.GameOver && coroutineAllowed)
+        {
+            StartCoroutine("Roll");
+        }
+    }*/
 
-        TextBox.GetComponent<Text> ().text = "" + TheNumber;
+
+    public void Roll()
+    {
+        coroutineAllowed = false;
+        TheNumber = Random.Range(1, 7);
+        TextBox.GetComponent<Text>().text = "" + TheNumber;
+        GameControl.diceRoll = TheNumber;
+        //GameControl.MovePlayer(1);
+        GameControl.Modify(TheNumber);
+        coroutineAllowed = true;
+        
 
     }
-
-  
 }
