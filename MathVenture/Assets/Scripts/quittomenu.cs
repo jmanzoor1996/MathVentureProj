@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class quittomenu : MonoBehaviour
+public class QuitToMenu : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    public void resetMenu() {
+    public void resetMenu()
+    {
 
         SceneManager.LoadScene("Menu");
 

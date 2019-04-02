@@ -8,17 +8,18 @@ public class MenuUIManger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     //Play Button
-    public void Play() {
+    public void Play()
+    {
 
         SceneManager.LoadScene("board2");
 
@@ -26,14 +27,16 @@ public class MenuUIManger : MonoBehaviour
     }
 
     //Options Button
-    public void Options() {
+    public void Options()
+    {
 
         SceneManager.LoadScene("options");
 
     }
 
     //MainMenu
-    public void GoBack() {
+    public void GoBack()
+    {
 
         SceneManager.LoadScene("Menu");
     }
