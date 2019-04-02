@@ -9,13 +9,13 @@ public class RandomGen : MonoBehaviour
     public GameObject TextBox;
     public int TheNumber;
 
-    public void randomGenerator()
+    public void RandomGenerator()
     {
         TheNumber = Random.Range(1, 7);
 
         TextBox.GetComponent<Text> ().text = "" + TheNumber;
+        GameControl.diceRoll = TheNumber;
 
+        GameControl.MovePlayer(1);
     }
-
-  
 }
