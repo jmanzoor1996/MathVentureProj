@@ -14,12 +14,16 @@ public class GameControl : MonoBehaviour
     public static bool GameOver = false;
 
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         player1 = GameObject.Find("spritereal");
         playerStart = player1.GetComponent<Path>().waypointIndex;
         player1.GetComponent<Path>().moveable = false;
+
+
         
     }
 
