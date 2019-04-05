@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d783f223-74f0-4b75-8a4c-5b64583ca940" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle____local_aars____Users_ianpaterson_MathVentureProj_MathVenture_AndroidBuildFiles_MathVenture_libs_unity_classes_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___android_arch_lifecycle_runtime_1_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_compat_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_core_ui_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_core_utils_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_fragment_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_media_compat_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_android_support_support_v4_26_1_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_auth_16_0_1__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_auth_api_phone_16_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_auth_base_16_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_base_16_0_1__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_basement_16_0_1__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_drive_16_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_games_16_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_nearby_16_0_0__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_android_gms_play_services_tasks_16_0_1__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle___com_google_games_gpgs_plugin_support_0_9_62__aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__android_arch_core_common_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__android_arch_lifecycle_common_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_annotations_26_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_auth_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_auth_api_phone_license_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_license_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_base_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_base_license_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_basement_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_basement_license_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_license_12_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GooglePlayGamesManifest.plugin/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GooglePlayGamesManifest.plugin/GooglePlayGamesManifest.plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GooglePlayGamesManifest.plugin/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GooglePlayGamesManifest.plugin/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MathVenture.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/android.arch.core.common-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/android.arch.lifecycle.common-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/android.arch.lifecycle.runtime-1.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-annotations-26.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-compat-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-core-ui-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-core-utils-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-fragment-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-media-compat-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.android.support.support-v4-26.1.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-auth-16.0.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-auth-api-phone-16.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-auth-base-16.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-base-16.0.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-basement-16.0.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-drive-16.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-games-16.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-nearby-16.0.0.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.android.gms.play-services-tasks-16.0.1.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com.google.games.gpgs-plugin-support-0.9.62.aar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/unity-classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proguard-unity.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Assembly-CSharp.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Mono.Security.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.ComponentModel.Composition.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Data.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Diagnostics.StackTrace.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Drawing.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.EnterpriseServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Globalization.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.IO.Compression.FileSystem.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.IO.Compression.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Net.Http.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Numerics.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Runtime.Serialization.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Runtime.Serialization.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.ServiceModel.Internals.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Transactions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Xml.Linq.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Xml.XPath.XDocument.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.Xml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/System.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Unity.Analytics.DataPrivacy.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Unity.Analytics.StandardEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Unity.Analytics.Tracker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/Unity.TextMeshPro.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.AIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ARModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.AccessibilityModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.AudioModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.BaselibModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ClothModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.CoreModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.CrashReportingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.FileSystemHttpModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.GridModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.HotReloadModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.InputModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.LocalizationModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.Networking.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ProfilerModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SpatialTracking.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SpatialTrackingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.StreamingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.StyleSheetsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.SubstanceModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TLSModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TerrainModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TextCoreModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.Timeline.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.TimelineModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UIElementsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UIModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UNETModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UmbraModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityTestProtocolModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.VFXModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.VRModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.VehiclesModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.VideoModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.WindModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.XRModule.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/UnityEngine.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/mscorlib.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Managed/netstandard.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/Resources/unity_builtin_extra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/boot.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/globalgamemanagers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/globalgamemanagers.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/level0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/level1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/level2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/level3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/level4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets0.assets.split0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets0.assets.split1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets1.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets2.assets.split6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets3.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/sharedassets4.assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/assets/bin/Data/unity default resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/EduFun/MathVenture/UnityPlayerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/armeabi-v7a/libmain.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/armeabi-v7a/libunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/x86/libMonoPosixHelper.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/x86/libmain.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/x86/libmonobdwgc-2.0.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/jniLibs/x86/libunity.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/drawable-xhdpi/app_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/mipmap-anydpi-v26/app_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/mipmap-anydpi-v26/app_icon_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/mipmap-mdpi/app_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/mipmap-mdpi/ic_launcher_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/values-v21/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.102.0.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.102.0.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.102.0.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.102.0.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.102.0.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.102.0.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.core.common-1.0.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.core.common-1.0.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.lifecycle.common-1.0.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.lifecycle.common-1.0.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/android.arch.lifecycle.runtime-1.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-annotations-26.1.0.jar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-annotations-26.1.0.jar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-compat-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-core-ui-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-core-utils-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-fragment-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-media-compat-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.android.support.support-v4-26.1.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-16.0.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-16.0.1.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-api-phone-16.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-auth-base-16.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-base-16.0.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-base-16.0.1.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-basement-16.0.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-basement-16.0.1.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-drive-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-drive-16.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-games-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-games-16.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-nearby-16.0.0.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-nearby-16.0.0.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-tasks-16.0.1.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.android.gms.play-services-tasks-16.0.1.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/AndroidManifest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/R.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/R.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/arm64-v8a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/armeabi-v7a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/drawable-nodpi-v4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/armeabi-v7a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/armeabi-v7a/libgpg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/armeabi-v7a/libgpg.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/classes.jar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/x86/libgpg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/libs/x86/libgpg.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/project.properties.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/drawable-nodpi-v4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/drawable-nodpi-v4/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/drawable-nodpi-v4/ic_launcher.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/values.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/res/values/values.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/values.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Plugins/Android/com.google.games.gpgs-plugin-support-0.9.62/x86.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Scripts/PlayerGamesClientConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/Scripts/PlayerGamesClientConfig.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Assets/TextMesh Pro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/AndroidResolverDependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/AndroidResolverDependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1921778907">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="2" />
+          <entry key="properties" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="2" />
+          <entry key="Properties" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="MathVenture" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="4.10.1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="MathVenture" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MathVenture" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="MathVenture" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d783f223-74f0-4b75-8a4c-5b64583ca940" name="Default Changelist" comment="" />
+      <created>1554419695464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554419695464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4955414" visible="true" weight="0.3390558" />
+      <window_info active="true" id="Structure" order="2" sideWeight="0.5044586" side_tool="true" visible="true" weight="0.3390558" />
+      <window_info id="Build Variants" order="3" sideWeight="0.50190115" side_tool="true" weight="0.3297568" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.50190115" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="4" visible="true" weight="0.3299363" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
