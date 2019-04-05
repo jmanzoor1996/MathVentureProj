@@ -42,7 +42,7 @@ dependencies {
     implementation(name: 'com.google.android.gms.play-services-games-16.0.0', ext:'aar')
     implementation(name: 'com.google.android.gms.play-services-nearby-16.0.0', ext:'aar')
     implementation(name: 'com.google.android.gms.play-services-tasks-16.0.1', ext:'aar')
-    implementation(name: 'com.google.games.gpgs-plugin-support-0.9.62', ext:'aar')
+    implementation project(':com.google.games.gpgs-plugin-support-0.9.62')
     implementation project(':GooglePlayGamesManifest.plugin')
 }
 
@@ -76,7 +76,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('/Users/ianpaterson/temp/MathVentureProj/MathVenture/MathVenture.keystore')
+            storeFile file('C:/Users/Ian/Documents/GitHub/MathVentureProj/MathVenture/MathVenture.keystore')
             storePassword 'ITEC370!'
             keyAlias 'google services'
             keyPassword 'ITEC370!'

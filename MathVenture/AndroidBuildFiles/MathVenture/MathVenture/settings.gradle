@@ -1,1 +1,2 @@
+include 'com.google.games.gpgs-plugin-support-0.9.62'
 include 'GooglePlayGamesManifest.plugin'
