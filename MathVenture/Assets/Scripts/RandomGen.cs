@@ -18,4 +18,6 @@ public class RandomGen : MonoBehaviour
 
         GameControl.MovePlayer(1);
     }
+
+    
 }
