@@ -32,7 +32,7 @@ public class createMiniGame : MonoBehaviour
         }
         else 
         {
-            rightOperand = Random.Range(0, 12);
+            rightOperand = Random.Range(1, 12);
         }
     }
 
