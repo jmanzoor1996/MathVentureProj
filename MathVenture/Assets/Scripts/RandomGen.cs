@@ -7,12 +7,22 @@ public class RandomGen : MonoBehaviour
 {
 
     public GameObject TextBox;
-    public int TheNumber;
+    public bool coroutineAllowed = true;
+    public static int TheNumber;
 
+<<<<<<< HEAD
     public void RandomGenerator()
+=======
+    /*private void OnMouseDown()
+>>>>>>> master
     {
-        TheNumber = Random.Range(1, 7);
+         if(!GameControl.GameOver && coroutineAllowed)
+        {
+            StartCoroutine("Roll");
+        }
+    }*/
 
+<<<<<<< HEAD
         TextBox.GetComponent<Text> ().text = "" + TheNumber;
         GameControl.diceRoll = TheNumber;
 
@@ -20,4 +30,19 @@ public class RandomGen : MonoBehaviour
     }
 
     
+=======
+
+    public void Roll()
+    {
+        coroutineAllowed = false;
+        TheNumber = Random.Range(1, 7);
+        TextBox.GetComponent<Text>().text = "" + TheNumber;
+        GameControl.diceRoll = TheNumber;
+        //GameControl.MovePlayer(1);
+        GameControl.Modify(TheNumber);
+        coroutineAllowed = true;
+        
+
+    }
+>>>>>>> master
 }

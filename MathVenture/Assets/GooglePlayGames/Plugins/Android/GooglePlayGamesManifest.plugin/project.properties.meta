@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: 6156f0fc2bafa4f0c86d61673c0068d0
+<<<<<<< HEAD
 labels:
 - gvh
 - gvh_version-0.9.63
@@ -8,3 +9,9 @@ DefaultImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+DefaultImporter:
+  userData: 
+labels:
+- gvh_v0.9.62
+>>>>>>> master

@@ -85,6 +85,7 @@ namespace GooglePlayGames.OurUtils
 
         private static string ToLogMessage(string prefix, string logType, string msg)
         {
+<<<<<<< HEAD
             string timeString = null;
             try
             {
@@ -99,6 +100,10 @@ namespace GooglePlayGames.OurUtils
 
             return string.Format("{0} [Play Games Plugin DLL] {1} {2}: {3}",
                 prefix, timeString, logType, msg);
+=======
+            return string.Format("{0} [Play Games Plugin DLL] {1} {2}: {3}",
+                prefix, DateTime.Now.ToString("MM/dd/yy H:mm:ss zzz"), logType, msg);
+>>>>>>> master
         }
     }
 }

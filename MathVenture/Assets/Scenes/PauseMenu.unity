@@ -523,7 +523,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TextBox: {fileID: 0}
+<<<<<<< HEAD
   TheNumber: 0
+=======
+  coroutineAllowed: 1
+>>>>>>> master
 --- !u!4 &891542875
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,7 +1238,11 @@ GameObject:
   - component: {fileID: 2119797835}
   - component: {fileID: 2119797839}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: Canvas
+=======
+  m_Name: pausemenu
+>>>>>>> master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

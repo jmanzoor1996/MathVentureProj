@@ -209,6 +209,7 @@ namespace GooglePlayGames.Native.PInvoke
                 Callbacks.ToIntPtr(callback));
         }
 
+<<<<<<< HEAD
         internal void DismissMatch(NativeTurnBasedMatch match)
         {
             TurnBasedMultiplayerManager.TurnBasedMultiplayerManager_DismissMatch(
@@ -216,6 +217,8 @@ namespace GooglePlayGames.Native.PInvoke
                 match.AsPointer());
         }
         
+=======
+>>>>>>> master
         internal void Rematch(NativeTurnBasedMatch match,
                           Action<TurnBasedMatchResponse> callback)
         {

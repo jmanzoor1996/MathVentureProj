@@ -150,7 +150,11 @@ namespace GooglePlayGames.Native.PInvoke
                 return C.AchievementManager_FetchAllResponse_GetStatus(SelfPtr());
             }
 
+<<<<<<< HEAD
             internal UIntPtr Length()
+=======
+            private UIntPtr Length()
+>>>>>>> master
             {
                 return C.AchievementManager_FetchAllResponse_GetData_Length(SelfPtr());
             }

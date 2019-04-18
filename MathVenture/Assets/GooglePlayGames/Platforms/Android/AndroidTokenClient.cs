@@ -249,6 +249,17 @@ namespace GooglePlayGames.Android
             {
                 mCallback(tokenResult);
             }
+<<<<<<< HEAD
+=======
+
+            // To prevent error:
+            // Java interface default methods are only supported since Android Oreo
+            // E Unity   : Exception: No such proxy method: GooglePlayGames.Android.AndroidTokenClient+ResultCallbackProxy.toString()
+            public string toString()
+            {
+                return "ResultCallbackProxy";
+            }
+>>>>>>> master
         }
 
     }

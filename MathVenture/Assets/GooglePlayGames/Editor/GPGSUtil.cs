@@ -252,8 +252,11 @@ namespace GooglePlayGames.Editor
         public static void WriteFile(string file, string body)
         {
             file = SlashesToPlatformSeparator(file);
+<<<<<<< HEAD
             DirectoryInfo dir = Directory.GetParent(file);
             dir.Create();
+=======
+>>>>>>> master
             using (var wr = new StreamWriter(file, false))
             {
                 wr.Write(body);

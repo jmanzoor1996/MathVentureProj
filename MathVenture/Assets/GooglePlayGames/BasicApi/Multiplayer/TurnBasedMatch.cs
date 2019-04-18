@@ -17,7 +17,10 @@
 
 namespace GooglePlayGames.BasicApi.Multiplayer
 {
+<<<<<<< HEAD
     using System;
+=======
+>>>>>>> master
     using System.Collections.Generic;
     using System.Linq;
     using GooglePlayGames.OurUtils;
@@ -27,10 +30,13 @@ namespace GooglePlayGames.BasicApi.Multiplayer
     /// </summary>
     public class TurnBasedMatch
     {
+<<<<<<< HEAD
 
         static readonly DateTime UnixEpoch =
                 new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
 
+=======
+>>>>>>> master
         public enum MatchStatus
         {
             Active,
@@ -62,13 +68,20 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         private MatchStatus mMatchStatus;
         private uint mVariant;
         private uint mVersion;
+<<<<<<< HEAD
         private long mCreationTime;
         private long mLastUpdateTime;
+=======
+>>>>>>> master
 
         internal TurnBasedMatch(string matchId, byte[] data, bool canRematch,
                                 string selfParticipantId, List<Participant> participants, uint availableAutomatchSlots,
                                 string pendingParticipantId, MatchTurnStatus turnStatus, MatchStatus matchStatus,
+<<<<<<< HEAD
                                 uint variant, uint version, ulong creationTime, ulong lastUpdateTime)
+=======
+                                uint variant, uint version)
+>>>>>>> master
         {
             mMatchId = matchId;
             mData = data;
@@ -85,6 +98,7 @@ namespace GooglePlayGames.BasicApi.Multiplayer
             mMatchStatus = matchStatus;
             mVariant = variant;
             mVersion = version;
+<<<<<<< HEAD
             mCreationTime = (long)creationTime;
             mLastUpdateTime = (long)lastUpdateTime;
         }
@@ -108,6 +122,10 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         }
 
 
+=======
+        }
+
+>>>>>>> master
         /// Match ID.
         public string MatchId
         {
@@ -245,7 +263,11 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         {
             return string.Format("[TurnBasedMatch: mMatchId={0}, mData={1}, mCanRematch={2}, " +
                 "mSelfParticipantId={3}, mParticipants={4}, mPendingParticipantId={5}, " +
+<<<<<<< HEAD
                 "mTurnStatus={6}, mMatchStatus={7}, mVariant={8}, mVersion={9}, mCreationTime={10}, mLastUpdateTime={11}]",
+=======
+                "mTurnStatus={6}, mMatchStatus={7}, mVariant={8}, mVersion={9}]",
+>>>>>>> master
                 mMatchId,
                 mData,
                 mCanRematch,
@@ -255,9 +277,13 @@ namespace GooglePlayGames.BasicApi.Multiplayer
                 mTurnStatus,
                 mMatchStatus,
                 mVariant,
+<<<<<<< HEAD
                 mVersion,
                 CreationTime,
                 LastUpdateTime);
+=======
+                mVersion);
+>>>>>>> master
         }
     }
 }

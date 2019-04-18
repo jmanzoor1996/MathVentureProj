@@ -157,6 +157,7 @@ namespace GooglePlayGames.Native
                     callback(matches);
                 });
         }
+<<<<<<< HEAD
         
         public void GetMatch(string matchId, Action<bool, TurnBasedMatch> callback)
         {
@@ -176,6 +177,8 @@ namespace GooglePlayGames.Native
                 }
             });
         }
+=======
+>>>>>>> master
 
         private Action<TurnBasedManager.TurnBasedMatchResponse> BridgeMatchToUserCallback(
             Action<UIStatus, TurnBasedMatch> userCallback)
@@ -531,6 +534,7 @@ namespace GooglePlayGames.Native
                 });
         }
 
+<<<<<<< HEAD
         public void Dismiss(TurnBasedMatch match)
         {
             FindEqualVersionMatch(match, success => {
@@ -539,6 +543,8 @@ namespace GooglePlayGames.Native
             }, mTurnBasedManager.DismissMatch);
         }
         
+=======
+>>>>>>> master
         public void Rematch(TurnBasedMatch match, Action<bool, TurnBasedMatch> callback)
         {
             callback = Callbacks.AsOnGameThreadCallback(callback);

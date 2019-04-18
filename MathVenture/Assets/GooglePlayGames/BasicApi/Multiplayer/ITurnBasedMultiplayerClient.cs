@@ -95,6 +95,7 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         void GetAllMatches(Action<TurnBasedMatch[]> callback);
 
         /// <summary>
+<<<<<<< HEAD
         /// Gets match for given match id.
         /// </summary>
         /// <param name="matchId">Match id</param>
@@ -102,6 +103,8 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         void GetMatch(string matchId, Action<bool, TurnBasedMatch> callback);
         
         /// <summary>
+=======
+>>>>>>> master
         /// Starts a game by showing the match inbox.</summary>
         /// <remarks> The player's match inbox will be
         /// shown, allowing the player to pick an ongoing match or accept an outstanding
@@ -204,6 +207,7 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         void Cancel(TurnBasedMatch match, Action<bool> callback);
 
         /// <summary>
+<<<<<<< HEAD
         /// Dismiss a match.
         /// </summary>
         /// <remarks>Dismissing a match hides it from the dismisser's match list UI
@@ -217,6 +221,8 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         void Dismiss(TurnBasedMatch match);
 
         /// <summary>
+=======
+>>>>>>> master
         /// Request a rematch.</summary>
         /// <remarks>
         /// This can be used on a finished match in order to start a new

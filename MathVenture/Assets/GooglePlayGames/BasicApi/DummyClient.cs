@@ -182,6 +182,20 @@ namespace GooglePlayGames.BasicApi
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
+        /// Returns the achievement corresponding to the passed achievement identifier.
+        /// </summary>
+        /// <returns>The achievement.</returns>
+        /// <param name="achId">Achievement identifier.</param>
+        public Achievement GetAchievement(string achId)
+        {
+            LogUsage();
+            return null;
+        }
+
+        /// <summary>
+>>>>>>> master
         /// Unlocks the achievement.
         /// </summary>
         /// <param name="achId">Achievement identifier.</param>

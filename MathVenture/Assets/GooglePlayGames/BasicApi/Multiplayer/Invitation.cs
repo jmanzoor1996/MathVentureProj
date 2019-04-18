@@ -15,21 +15,29 @@
 // </copyright>
 #if UNITY_ANDROID
 
+<<<<<<< HEAD
 using System;
 
 namespace GooglePlayGames.BasicApi.Multiplayer
 {
 
+=======
+namespace GooglePlayGames.BasicApi.Multiplayer
+{
+>>>>>>> master
     /// <summary>
     /// Represents an invitation to a multiplayer game. The invitation may be for
     /// a turn-based or real-time game.
     /// </summary>
     public class Invitation
     {
+<<<<<<< HEAD
         static readonly DateTime UnixEpoch =
                 new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
 
 
+=======
+>>>>>>> master
         public enum InvType
         {
             RealTime,
@@ -41,15 +49,23 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         private string mInvitationId;
         private Participant mInviter;
         private int mVariant;
+<<<<<<< HEAD
         private long mCreationTime;
 
         internal Invitation(InvType invType, string invId, Participant inviter, int variant, long creationTime)
+=======
+
+        internal Invitation(InvType invType, string invId, Participant inviter, int variant)
+>>>>>>> master
         {
             mInvitationType = invType;
             mInvitationId = invId;
             mInviter = inviter;
             mVariant = variant;
+<<<<<<< HEAD
             mCreationTime = creationTime;
+=======
+>>>>>>> master
         }
 
         /// <summary>
@@ -102,6 +118,7 @@ namespace GooglePlayGames.BasicApi.Multiplayer
             }
         }
 
+<<<<<<< HEAD
         /// <summary>
         /// Gets the creation time of the invitation
         /// </summary>
@@ -115,6 +132,8 @@ namespace GooglePlayGames.BasicApi.Multiplayer
         }
 
 
+=======
+>>>>>>> master
         public override string ToString()
         {
             return string.Format("[Invitation: InvitationType={0}, InvitationId={1}, Inviter={2}, " +
