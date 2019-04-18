@@ -1,26 +1,59 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class createMiniGame : MonoBehaviour
 {
-    public enum Operation {add, subtract, multiply, divide};
+    private enum Operation {add, subtract, multiply, divide};
 
-    public string[] names = new string[12];
-    public string[] verbs = new string[12];
-    public string[] nouns = new string[12];
+    private string[] names = new string[12];
+    private string[] verbs = new string[12];
+    private string[] nouns = new string[12];
+    private string question;
     Operation op;
     public int correctAnswer;
     public int[] answers = new int[4];
-    public int leftOperand;
-    public int rightOperand;
+    private int leftOperand;
+    private int rightOperand;
+    Text questionText;
+
     // Start is called before the first frame update
     void Start()
     {
         setOperands();
         setOperation();
         solve();
+        createStringQuestion();
+        setQuestionText();
         Debug.Log(correctAnswer);
+    }
+
+    public void createStringQuestion()
+    {
+        string symbol = "";
+        switch (op)
+        {
+            case Operation.add:
+                symbol = "+";
+                break;
+            case Operation.subtract:
+                symbol = "-";
+                break;
+            case Operation.multiply:
+                symbol = "*";
+                break;
+            case Operation.divide:
+                symbol = "/";
+                break;
+        }
+        question = leftOperand + " " + symbol + " " + rightOperand + " = ?";
+    }
+
+    public void setQuestionText()
+    {
+        questionText = GetComponent<Text>();
+        questionText.text = question;
     }
 
     public void setOperands()
