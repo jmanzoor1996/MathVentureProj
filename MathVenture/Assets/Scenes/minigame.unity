@@ -148,8 +148,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -291.9, y: -155.1}
-  m_SizeDelta: {x: 126.8, y: 223.1}
+  m_AnchoredPosition: {x: -277.69995, y: -155.09998}
+  m_SizeDelta: {x: 125, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &42750273
 MonoBehaviour:
@@ -277,8 +277,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 91, y: -155.09999}
-  m_SizeDelta: {x: 112.5, y: 223.1}
+  m_AnchoredPosition: {x: 76, y: -155.1}
+  m_SizeDelta: {x: 125, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76304481
 MonoBehaviour:
@@ -551,8 +551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: -155.1}
-  m_SizeDelta: {x: 107.3, y: 223.1}
+  m_AnchoredPosition: {x: 246.15007, y: -155.1}
+  m_SizeDelta: {x: 125, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797791829
 MonoBehaviour:
@@ -1099,12 +1099,12 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MinSize: 0
+    m_MaxSize: 45
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1131,49 +1131,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d94c95cbc54343498bc615bb44992da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  names:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  verbs:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  nouns:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  a_buttonText: {fileID: 2060800432}
+  b_buttonText: {fileID: 1500011138}
+  c_buttonText: {fileID: 197259034}
+  d_buttonText: {fileID: 1649424659}
   correctAnswer: 0
   answers: 00000000000000000000000000000000
-  leftOperand: 0
-  rightOperand: 0
 --- !u!1 &1905169757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1210,8 +1173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119, y: -155.09999}
-  m_SizeDelta: {x: 132, y: 223.1}
+  m_AnchoredPosition: {x: -97, y: -155.1}
+  m_SizeDelta: {x: 125, y: 230}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905169759
 MonoBehaviour:
